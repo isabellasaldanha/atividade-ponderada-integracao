@@ -1,0 +1,43 @@
+2025-03-11 20:41:45,014 - INFO - Iniciando a aplicação de busca de produtos de beleza.
+2025-03-11 20:41:53,386 - INFO - Produtos da marca ruby rose buscados com sucesso.
+2025-03-11 20:42:05,134 - INFO - Iniciando a aplicação de busca de produtos de beleza.
+2025-03-11 20:42:09,101 - INFO - Produtos da marca rare beauty buscados com sucesso.
+2025-03-11 20:42:21,240 - INFO - Iniciando a aplicação de busca de produtos de beleza.
+2025-03-11 20:42:40,780 - INFO - Produtos da marca avon buscados com sucesso.
+2025-03-11 20:42:45,841 - INFO - Iniciando a aplicação de busca de produtos de beleza.
+2025-03-11 20:43:05,971 - INFO - Produtos da marca maybelline buscados com sucesso.
+2025-03-11 20:43:56,803 - INFO - Iniciando a aplicação de busca de produtos de beleza.
+2025-03-11 20:44:00,374 - INFO - Produtos da marca nyx buscados com sucesso.
+2025-03-11 20:49:00,591 - INFO - Iniciando a aplicação de busca de produtos de beleza.
+2025-03-11 20:49:00,591 - INFO - Versão do Python: 3.11.4 (tags/v3.11.4:d2340ef, Jun  7 2023, 05:45:37) [MSC v.1934 64 bit (AMD64)]
+2025-03-11 20:49:08,257 - INFO - Requisição à API concluída em 7.67 segundos.
+2025-03-11 20:49:08,257 - INFO - Marcas disponíveis buscadas com sucesso.
+2025-03-11 20:49:08,257 - ERROR - Erro na execução do programa: '<' not supported between instances of 'NoneType' and 'str'
+2025-03-11 20:50:56,373 - INFO - Iniciando a aplicação de busca de produtos de beleza.
+2025-03-11 20:50:56,374 - INFO - Versão do Python: 3.11.4 (tags/v3.11.4:d2340ef, Jun  7 2023, 05:45:37) [MSC v.1934 64 bit (AMD64)]
+2025-03-11 20:51:06,012 - INFO - Requisição à API concluída em 9.64 segundos.
+2025-03-11 20:51:06,029 - INFO - Marcas disponíveis buscadas com sucesso.
+2025-03-11 20:51:06,029 - ERROR - Erro na execução do programa: '<' not supported between instances of 'NoneType' and 'str'
+Traceback (most recent call last):
+  File "C:\Users\Inteli\Documents\GitHub\atividade-ponderada-integracao\main.py", line 25, in main
+    list_all_brands()  # Mostra todas as marcas disponíveis
+    ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Inteli\Documents\GitHub\atividade-ponderada-integracao\main.py", line 8, in list_all_brands
+    brands = fetch_all_brands()
+             ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Inteli\Documents\GitHub\atividade-ponderada-integracao\api_client.py", line 55, in fetch_all_brands
+    return sorted(brands)  # Retorna as marcas em ordem alfabética
+           ^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'NoneType' and 'str'
+2025-03-11 20:51:33,501 - INFO - Iniciando a aplicação de busca de produtos de beleza.
+2025-03-11 20:57:57,524 - INFO - Iniciando a aplicação de busca de produtos de beleza.
+2025-03-11 20:57:57,524 - INFO - Versão do Python: 3.11.4 (tags/v3.11.4:d2340ef, Jun  7 2023, 05:45:37) [MSC v.1934 64 bit (AMD64)]
+2025-03-11 20:58:24,240 - ERROR - Erro na requisição à API: HTTPConnectionPool(host='makeup-api.herokuapp.com', port=80): Read timed out.
+2025-03-11 20:58:28,458 - INFO - Iniciando a aplicação de busca de produtos de beleza.
+2025-03-11 20:58:28,458 - INFO - Versão do Python: 3.11.4 (tags/v3.11.4:d2340ef, Jun  7 2023, 05:45:37) [MSC v.1934 64 bit (AMD64)]
+2025-03-11 20:58:40,091 - INFO - Requisição à API concluída em 8.92 segundos.
+2025-03-11 20:58:40,091 - INFO - Produtos da marca maybelline buscados com sucesso.
+2025-03-11 21:06:50,510 - INFO - Iniciando a aplicação de busca de produtos de beleza.
+2025-03-11 21:06:50,510 - INFO - Versão do Python: 3.11.4 (tags/v3.11.4:d2340ef, Jun  7 2023, 05:45:37) [MSC v.1934 64 bit (AMD64)]
+2025-03-11 21:06:59,839 - INFO - Requisição à API concluída em 0.89 segundos.
+2025-03-11 21:06:59,839 - INFO - Produtos da marca maybelline buscados com sucesso.
