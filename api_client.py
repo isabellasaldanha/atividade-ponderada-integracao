@@ -17,8 +17,8 @@ def fetch_products_by_brand(brand):
 
         # Faz a requisição à API
         params = {'brand': brand}
-        response = requests.get(API_URL, params=params, timeout=10)  # Timeout de 10 segundos
-        response.raise_for_status()  # Lança uma exceção para respostas não bem-sucedidas
+        response = requests.get(API_URL, params=params, timeout=10)  
+        response.raise_for_status()  
 
         # Calcula o tempo de resposta
         end_time = time.time()

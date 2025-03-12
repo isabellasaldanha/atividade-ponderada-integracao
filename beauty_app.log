@@ -41,3 +41,7 @@ TypeError: '<' not supported between instances of 'NoneType' and 'str'
 2025-03-11 21:06:50,510 - INFO - Versão do Python: 3.11.4 (tags/v3.11.4:d2340ef, Jun  7 2023, 05:45:37) [MSC v.1934 64 bit (AMD64)]
 2025-03-11 21:06:59,839 - INFO - Requisição à API concluída em 0.89 segundos.
 2025-03-11 21:06:59,839 - INFO - Produtos da marca maybelline buscados com sucesso.
+2025-03-11 21:23:29,522 - INFO - Iniciando a aplicação de busca de produtos de beleza.
+2025-03-11 21:23:29,522 - INFO - Versão do Python: 3.11.4 (tags/v3.11.4:d2340ef, Jun  7 2023, 05:45:37) [MSC v.1934 64 bit (AMD64)]
+2025-03-11 21:23:40,762 - INFO - Requisição à API concluída em 1.15 segundos.
+2025-03-11 21:23:40,762 - INFO - Produtos da marca dior buscados com sucesso.
