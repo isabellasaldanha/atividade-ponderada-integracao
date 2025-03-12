@@ -125,25 +125,3 @@ def test_filter_products_by_price(self):
     self.assertEqual(filtered_products[0]["name"], "Product 1")
 ```
 
-#### **Como executar os testes**
-
-1. Navegue até a pasta raiz do projeto (`beauty_project`):
-   ```bash
-   cd caminho/para/beauty_project
-   ```
-
-2. Execute os testes:
-   ```bash
-   python -m unittest tests/test_beauty_app.py
-   ```
-
-3. **Resultado esperado**:
-   - Se tudo estiver correto, você verá uma saída como:
-     ```
-     .....
-     ----------------------------------------------------------------------
-     Ran 5 tests in 0.002s
-
-     OK
-     ```
-
